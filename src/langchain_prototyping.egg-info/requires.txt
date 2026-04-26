@@ -1,0 +1,2 @@
+deepagents>=0.5.3
+langchain>=1.2.15
