@@ -7,4 +7,14 @@ requires-python = ">=3.13"
 dependencies = [
     "deepagents>=0.5.3",
     "langchain>=1.2.15",
+    "langchain-openai>=1.2.1",
+    "pyyaml>=6.0.2",
+    "python-dotenv>=1.2.2",
 ]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
